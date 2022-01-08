@@ -18,14 +18,14 @@ public class push_pop_peek {
 	 
 	        for(int i = 0; i < 5; i++)
 	        {
-	            Integer y = (Integer) stack.pop();
-	            System.out.println(y);
+	       
+	            System.out.println(stack.pop());
 	        }
 	    }
 	static void stack_peek(Stack<Integer> stack)
     {
-		Integer element = (Integer) stack.peek();
-        System.out.println("Element on stack top: " + element);
+		
+        System.out.println("Element on stack top: " + stack.peek());
     }
 	public static void main(String[]args) {
 	
